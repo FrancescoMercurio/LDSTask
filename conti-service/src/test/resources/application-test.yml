@@ -1,0 +1,3 @@
+clients:
+  clienti:
+    base-url: http://localhost:9999

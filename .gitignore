@@ -1,0 +1,19 @@
+# Maven / Java
+**/target/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven Wrapper cache
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment
+.env

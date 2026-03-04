@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/conti_db}
+      auto-index-creation: true
+
+clients:
+  clienti:
+    base-url: ${CLIENTI_SERVICE_URL:http://localhost:8081}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
